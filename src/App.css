@@ -1,38 +1,289 @@
-.App {
-  text-align: center;
+:root {
+  --primary: #222939;
+  --secondary: #fca291;
+  --tertiary: #92a3d1;
+  --quaternary: #f4eade;
+  --quinary: #d49955;
+  --senary: #dcbcad;
+
+  background-color: var(--tertiary);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-primary {
+  font-family: "Sometype Mono", monospace;
+  color: var(--primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#headerWrap {
+  background-color: var(--tertiary);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav {
+  display: flex;
+  list-style-type: none;
+}
+
+#logo {
+  width: 30%;
+}
+
+#hobbiesWrapper,
+#educationWorkWrapper,
+#projectsWrapper,
+#skillsWrapper {
+  background-color: var(--primary);
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#rentCraftWrapper,
+#jeopardyWrapper,
+#harmonyWrapper,
+#commentedWrapper,
+#escapeBHWrapper,
+#pokedexWrapper,
+#mathGamesWrapper {
+  background-color: var(--primary);
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#footerWrapper {
+  background-color: var(--tertiary);
+  color: var(--primary);
+}
+
+#footerWrapper > h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 90%;
+}
+
+#contact,
+.externalLink,
+.projectLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.projectLink {
+  color: var(--quaternary);
+  text-decoration: none;
+}
+
+#contact a,
+#headerWrap a {
+  font-size: 120%;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.externalLink {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+#contact a:hover,
+.externalLink:hover {
+  text-decoration: underline;
+  color: var(--quaternary);
+}
+.projectLink:hover {
+  text-decoration: underline;
+  color: var(--tertiary);
+}
+.background {
+  background-color: var(--senary);
+}
+#profileWrapper,
+.picText {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#shortPitch {
+  margin-top: 12%;
+  margin-bottom: 12%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.title {
+  color: var(--tertiary);
+  text-align: center;
+  padding-top: 1%;
+}
+#shortPitch,
+.projectTitle,
+.hobbyTitle,
+.skillsTitle,
+.educationWorkTitle,
+.educationWorkList,
+.projectTitle {
+  color: var(--secondary);
+  text-align: center;
+  padding-top: 1%;
+}
+
+.hobbyBlurb,
+.skillsBlurb,
+.educationWorkList,
+.projectExplained,
+.projectList {
+  color: var(--quaternary);
+  font-size: 150%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.projectLink {
+  display: inline-block;
+}
+
+#shortPitch > ul {
+  color: var(--quaternary);
+  font-size: 150%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.educationWorkList {
+  padding-left: 20%;
+  padding-right: 20%;
+  list-style-type: circle;
+}
+
+.finishedProjects > table,
+.unFinishedProjects > table {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#shortPitch > p {
+  padding-top: 5%;
+}
+
+#julia-profile {
+  margin: 5%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 0.5%;
+  background-color: var(--tertiary);
+  border-radius: 10%;
+}
+
+#toggler {
+  color: var(--primary);
+  background-color: var(--quaternary);
+}
+
+.juliaHobby,
+.juliaSkill {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 0.5%;
+  background-color: var(--tertiary);
+  border-radius: 10%;
+}
+
+.screenShot {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+
+  width: 90%;
+  height: auto;
+  padding: 0.5%;
+  background-color: var(--tertiary);
+  border: 5%;
+}
+.picText > ul,
+.projectList {
+  list-style-type: circle;
+}
+@media only screen and (min-width: 794px) {
+  .Nav {
+    justify-content: space-evenly;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 794px) {
+  #logo,
+  #toggler {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+  }
+  #profileWrapper,
+  .picText {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #shortPitch,
+  #shortPitch > ul #contact > ul {
+    margin-left: 5%;
+    margin-right: 5%;
+    list-style-type: circle;
+  }
+  #profileWrapper {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90%;
+  }
+
+  .hobbyBlurb,
+  .skillsBlurb,
+  .educationWorkList,
+  .projectExplained {
+    color: var(--quaternary);
+    font-size: 150%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .projectList {
+    color: var(--quaternary);
+    font-size: 150%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
   }
 }
