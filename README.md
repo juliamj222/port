@@ -4,18 +4,18 @@
 
 Landing page.
 
-# Projects
+## Projects
 
 List of the projects I worked on. Links to the walkthroughs and repos.
 
-# Education and Professional Experience
+## Education and Professional Experience
 
 List of my education and professional experience.
 
-# Hobbies and Interests
+## Hobbies and Interests
 
 Some lines about my hobbies and interests
 
-# Transferable Skills
+## Transferable Skills
 
 An outline of some of the transferable skills I developed throughout my career.
