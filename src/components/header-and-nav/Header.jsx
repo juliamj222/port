@@ -18,7 +18,7 @@ function HeaderAndNav() {
         <Navbar>
           <Link to="/" className="logoHome">
             {" "}
-            <img src={logo} alt="JMJ logo" id="logo" />
+            <img src={logo} alt="Logo" id="logo" />
           </Link>
           <NavbarToggler onClick={toggleNavbar} id="toggler" />
           <Collapse isOpen={!collapsed} navbar>
