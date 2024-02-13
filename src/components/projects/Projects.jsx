@@ -30,8 +30,7 @@ function Projects() {
               >
                 - GitHub Repo
               </a>{" "}
-            </li>
-
+            </li>{" "}
             {/* Harmony Hotel section*/}
             <li>
               <strong>Harmony Hotel</strong> - Chat Web Application -
@@ -93,7 +92,6 @@ function Projects() {
                 - GitHub Repo
               </a>{" "}
             </li>
-
             {/* Pokédex section */}
             <li>
               <strong>Pokédex</strong> - Pokémon Information Web Application -{" "}
@@ -115,7 +113,6 @@ function Projects() {
                 - GitHub Repo
               </a>{" "}
             </li>
-
             {/* Math Games Console Application */}
             <li>
               <strong>Math Games </strong>- Console Application -{" "}
@@ -136,17 +133,24 @@ function Projects() {
                 - GitHub Repo
               </a>{" "}
             </li>
-
             {/* Jeopardy Website */}
             <li>
-              <strong>Jeopardy </strong>- Web-based Jeopardy game -
+              <strong>Jeopardy </strong>
+              <a
+                href="https://juliamj222.github.io/jeopardy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="projectLink"
+              >
+                - Web-based Jeopardy game
+              </a>{" "}
               <a
                 href="/Jeopardy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
-                Walkthrough
+                - Walkthrough
               </a>{" "}
               <a
                 href="https://github.com/juliamj222/jeopardy"
@@ -167,7 +171,8 @@ function Projects() {
           <h2 className="projectTitle"> Projects I'm Working On</h2>
           <ul className="projectList">
             <li>
-              Name - Date - Description -{" "}
+              La Quesera - 2/12/2024 - Quiz game in Spanish, made for elementary
+              students -{" "}
               <a
                 href="/"
                 target="_blank"
