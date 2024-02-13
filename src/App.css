@@ -287,3 +287,12 @@
     text-align: justify;
   }
 }
+.projectTitle,
+.projectList > li {
+  margin-bottom: 3.5vh;
+}
+
+#profileWrapper {
+  padding-bottom: 12vh;
+  padding-top: 12vh;
+}

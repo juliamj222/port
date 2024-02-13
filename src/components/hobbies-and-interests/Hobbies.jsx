@@ -38,11 +38,9 @@ function Hobbies() {
           <h2 className="hobbyTitle">Hiking</h2>
           <div className="picText">
             <p className="hobbyBlurb">
-              I love being outdoors, whether it's a simple stroll, a hike, or a
-              camping trip. Though I wish I could do it more often, every
-              outdoor escapade feels incredibly rewarding. The fresh air,
-              nature's beauty, and the simple joy of walking make it a cherished
-              experience for me.
+              I love being outdoors: going for a stroll, a hike, or a camping
+              trip. Feeling the fresh air, looking at all the beauty around me,
+              and pumping up the heart rate a bit is always enjoyable to me.
             </p>
             <img
               src={juliaHikingUtah}
