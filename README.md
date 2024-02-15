@@ -1,5 +1,3 @@
-# <<<<<<< HEAD
-
 # Julia's Portfolio
 
 ## Main Index
@@ -23,5 +21,3 @@ Some lines about my hobbies and interests
 An outline of some of the transferable skills I developed throughout my career.
 
 Thank you for visiting!
-
-> > > > > > > f4e573ef5ce9db863b7f07fe4f15e7208b935265
