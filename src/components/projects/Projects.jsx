@@ -13,14 +13,14 @@ function Projects() {
             {/* RentCraft section */}
             <li>
               {" "}
-              <strong>RentCraft </strong>- Property Management Web Application -{" "}
+              <strong>RentCraft </strong>- Property Management Web App{" "}
               <a
                 href="/RentCraft"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
-                Walkthrough
+                - Walkthrough
               </a>{" "}
               <a
                 href="https://github.com/juliamj222/rentcraft-frontend"
@@ -33,14 +33,14 @@ function Projects() {
             </li>{" "}
             {/* Harmony Hotel section*/}
             <li>
-              <strong>Harmony Hotel</strong> - Chat Web Application -
+              <strong>Harmony Hotel</strong> - Chat Web App
               <a
                 href="/harmony-hotel"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
-                Walkthrough
+                - Walkthrough
               </a>{" "}
               <a
                 href="https://github.com/juliamj222/harmony"
@@ -74,14 +74,14 @@ function Projects() {
             {/* Escape B.H.: The Quest for Freedom section */}
             <li>
               <strong>Escape B.H. The Quest for Freedom </strong> - Text-Based
-              Adventure Game -{" "}
+              Game{" "}
               <a
                 href="/escape-bh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
-                Walkthrough
+                - Walkthrough
               </a>{" "}
               <a
                 href="https://github.com/juliamj222/Escape-B.H.-The-Quest-for-Freedom"
@@ -94,7 +94,7 @@ function Projects() {
             </li>
             {/* Pokédex section */}
             <li>
-              <strong>Pokédex</strong> - Pokémon Information Web Application -{" "}
+              <strong>Pokédex</strong> - Pokémon Information Web App{" "}
               <a
                 href="/pokedex"
                 target="_blank"
@@ -102,7 +102,7 @@ function Projects() {
                 className="projectLink"
               >
                 {" "}
-                Walkthrough
+                - Walkthrough
               </a>{" "}
               <a
                 href="https://github.com/juliamj222/pokedex"
@@ -115,14 +115,14 @@ function Projects() {
             </li>
             {/* Math Games Console Application */}
             <li>
-              <strong>Math Games </strong>- Console Application -{" "}
+              <strong>Math Games </strong>- Console App{" "}
               <a
                 href="/math-games"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
-                Walkthrough
+                - Walkthrough
               </a>{" "}
               <a
                 href="https://github.com/juliamj222/math-games-guess-the-number"

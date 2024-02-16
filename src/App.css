@@ -39,6 +39,7 @@ body {
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
+  margin-bottom: 10vh;
 }
 
 #rentCraftWrapper,
@@ -47,7 +48,8 @@ body {
 #commentedWrapper,
 #escapeBHWrapper,
 #pokedexWrapper,
-#mathGamesWrapper {
+#mathGamesWrapper,
+#projectsWrapper {
   background-color: var(--primary);
   padding-bottom: 10%;
   padding-left: 10%;
@@ -59,6 +61,10 @@ body {
   color: var(--primary);
   margin-top: auto;
   flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 #footerWrapper > h5 {
@@ -120,6 +126,10 @@ body {
   margin-bottom: 12%;
 }
 
+#shortPitch > ul > li,
+#shortPitch > h1 {
+  margin: 4vh;
+}
 .title {
   color: var(--tertiary);
   text-align: center;
@@ -233,18 +243,25 @@ body {
 }
 
 @media only screen and (max-width: 794px) {
+  #headerWrap > #logo,
+  #headerWrap > #toggler {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
   #logo,
   #toggler {
-    width: 100%;
+    width: 20vw;
     margin-top: 1%;
     margin-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
   }
 
-  .nav-link {
+  .Nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
   }
   #profileWrapper,
   .picText {
@@ -291,6 +308,12 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: justify;
+  }
+  .projectTitle,
+  .projectList > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .projectTitle,

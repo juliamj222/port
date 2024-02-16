@@ -1,12 +1,12 @@
 import "../../App.css";
-import JuliaResume from "../../assets/JuliaResume.pdf";
+import JuliaMenéndezJardónResume from "../../assets/JuliaMenéndezJardónResume.pdf";
 
 function EducationWork() {
   return (
     <>
       <div id="educationWorkWrapper">
         <a
-          href={JuliaResume}
+          href={JuliaMenéndezJardónResume}
           target="_blank"
           rel="noopener noreferrer"
           className="externalLink"

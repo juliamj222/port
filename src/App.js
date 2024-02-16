@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <HeaderAndNav />
-      <MainIndex />
 
       <Routes>
         <Route path="/" element={<MainIndex />} />

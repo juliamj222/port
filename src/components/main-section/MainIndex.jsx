@@ -12,8 +12,8 @@ function MainIndex(props) {
 
           <ul>
             <li>Problem solver and lifelong learner</li>
-            <li>Background in Linguistics and Education</li>{" "}
-            <li>Expanding my knowledge in Software Development</li>
+            <li>Background in Linguistics and Education</li>
+            <li> Software Development</li>
           </ul>
         </div>
       </div>
