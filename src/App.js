@@ -19,9 +19,9 @@ import Pokedex from "./components/projects/Pokedex/Pokedex.jsx";
 function App() {
   return (
     <div className="App">
-      {/*  <HeaderAndNav /> */}
+      <HeaderAndNav />
       <MainIndex />
-      <h1>HI</h1>
+
       <Routes>
         <Route path="/" element={<MainIndex />} />
         <Route path="/projects" element={<Projects />} />
