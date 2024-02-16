@@ -9,6 +9,10 @@
   background-color: var(--tertiary);
 }
 
+body {
+  min-height: 100vh;
+}
+
 .font-primary {
   font-family: "Sometype Mono", monospace;
   color: var(--primary);
@@ -53,6 +57,8 @@
 #footerWrapper {
   background-color: var(--tertiary);
   color: var(--primary);
+  margin-top: auto;
+  flex-shrink: 0;
 }
 
 #footerWrapper > h5 {
