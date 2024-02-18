@@ -20,9 +20,9 @@ function App() {
   return (
     <div className="App">
       <HeaderAndNav />
-
       <Routes>
         <Route path="/" element={<MainIndex />} />
+        <Route path="/port" element={<MainIndex />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/education-work" element={<EducationWork />} />
         <Route path="/hobbies" element={<Hobbies />} />
