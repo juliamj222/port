@@ -9,6 +9,10 @@
   background-color: var(--tertiary);
 }
 
+body {
+  background-color: var(--primary);
+}
+
 .font-primary {
   font-family: "Sometype Mono", monospace;
   color: var(--primary);
