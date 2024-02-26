@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.2b75b972.css",
-    "main.js": "/port/static/js/main.e49c2d44.js",
+    "main.css": "/port/static/css/main.fc06695c.css",
+    "main.js": "/port/static/js/main.06cd5a82.js",
     "static/js/787.1ed0c42c.chunk.js": "/port/static/js/787.1ed0c42c.chunk.js",
     "static/media/juliaHikingUtah.jpg": "/port/static/media/juliaHikingUtah.16ecd36a397cea1f1f3b.jpg",
     "static/media/juliaRugby.jpeg": "/port/static/media/juliaRugby.3d065575e73309c97a36.jpeg",
@@ -37,18 +37,18 @@
     "static/media/PokedexPikachu.jpg": "/port/static/media/PokedexPikachu.83520f84881dee0949d1.jpg",
     "static/media/juliaUtah.jpg": "/port/static/media/juliaUtah.89452ca96a009eaa3045.jpg",
     "static/media/RentCraftLogIn.png": "/port/static/media/RentCraftLogIn.cee12bd97f8397ae3ef1.png",
-    "static/media/JuliaMenéndezJardónResume.pdf": "/port/static/media/JuliaMenéndezJardónResume.be74e5e76eb1d0c1af98.pdf",
+    "static/media/JuliaMenéndezJardónResume.pdf": "/port/static/media/JuliaMenéndezJardónResume.6f652a2790a7bd64fa71.pdf",
     "static/media/MathGamesIntro.jpg": "/port/static/media/MathGamesIntro.3b141e583401ccdb340f.jpg",
     "static/media/RentCraftLogocropped.png": "/port/static/media/RentCraftLogocropped.bccbef724649b8f0d881.png",
     "static/media/PokedexError.jpg": "/port/static/media/PokedexError.f064bde2f09ef36e5949.jpg",
     "static/media/juliaProfile.jpeg": "/port/static/media/juliaProfile.8c0210f753bbf55c23f5.jpeg",
     "index.html": "/port/index.html",
-    "main.2b75b972.css.map": "/port/static/css/main.2b75b972.css.map",
-    "main.e49c2d44.js.map": "/port/static/js/main.e49c2d44.js.map",
+    "main.fc06695c.css.map": "/port/static/css/main.fc06695c.css.map",
+    "main.06cd5a82.js.map": "/port/static/js/main.06cd5a82.js.map",
     "787.1ed0c42c.chunk.js.map": "/port/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b75b972.css",
-    "static/js/main.e49c2d44.js"
+    "static/css/main.fc06695c.css",
+    "static/js/main.06cd5a82.js"
   ]
 }
