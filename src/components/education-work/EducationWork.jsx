@@ -1,12 +1,12 @@
 import "../../App.css";
-import JuliaResume from "../../assets/JuliaResume.pdf";
+import JuliaMenéndezJardónResume from "../../assets/JuliaMenéndezJardónResume.pdf";
 
 function EducationWork() {
   return (
     <>
       <div id="educationWorkWrapper">
         <a
-          href={JuliaResume}
+          href={JuliaMenéndezJardónResume}
           target="_blank"
           rel="noopener noreferrer"
           className="externalLink"
@@ -20,10 +20,7 @@ function EducationWork() {
 
           <ul className="educationWorkList">
             <li>Software Development Certificate | Burlington Code Academy </li>
-            <li>
-              Phd. in Humanities - Spanish Sociolinguistics | University of
-              Oviedo{" "}
-            </li>
+            <li>Phd. in Sociolinguistics | University of Oviedo </li>
             <li> M.A. in Language Pedagogy | University of Utah</li>
             <li>
               {" "}
@@ -42,6 +39,7 @@ function EducationWork() {
           <h2 className="educationWorkTitle">Professional Experience</h2>
 
           <ul className="educationWorkList">
+            <li>Intern - content migration | OnLogic, Vermont 2024</li>
             <li>
               Teacher and translator | Jericho Elementary School, Vermont 2019 –
               2023

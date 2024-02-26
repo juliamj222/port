@@ -19,3 +19,5 @@ Some lines about my hobbies and interests
 ## Transferable Skills
 
 An outline of some of the transferable skills I developed throughout my career.
+
+Thank you for visiting!

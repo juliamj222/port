@@ -27,9 +27,10 @@ function Hobbies() {
             <p className="hobbyBlurb">
               {" "}
               I enjoy hanging out by the river or in the lake. My favorite time
-              to fish is in the summer, when I can jump in the water and see the
+              to go is in the summer, when I can jump in the water and see the
               little fish swimming around me. I'm not particularly lucky, but I
-              sometimes end up catching bass, perch, or a small bluegill.
+              sometimes end up catching some bass, perch, or a little brave
+              bluegill.
             </p>
           </div>
         </div>
@@ -38,11 +39,9 @@ function Hobbies() {
           <h2 className="hobbyTitle">Hiking</h2>
           <div className="picText">
             <p className="hobbyBlurb">
-              I love being outdoors, whether it's a simple stroll, a hike, or a
-              camping trip. Though I wish I could do it more often, every
-              outdoor escapade feels incredibly rewarding. The fresh air,
-              nature's beauty, and the simple joy of walking make it a cherished
-              experience for me.
+              I love being outdoors: going for a walk, a hike, or organizing a
+              camping trip. The fresh air, the beauty around me, and some
+              quality time with friends always gets me excited.
             </p>
             <img
               src={juliaHikingUtah}
@@ -60,9 +59,9 @@ function Hobbies() {
 
             <p className="hobbyBlurb">
               I'm learning how to play rugby. I recently joined the Burlington
-              rugby team and I am having an absolute blast. I love how you need
-              to be able to think fast, you develop your teamwork and creativity
-              and every team shows camaraderie on and off the field.
+              rugby team and I am having an absolute blast. My favorite things
+              are making split-second decisions, thinking creatively, and
+              socializing with other teams.
             </p>
           </div>
         </div>
@@ -74,10 +73,9 @@ function Hobbies() {
           <div className="picText">
             <p className="hobbyBlurb">
               {" "}
-              I have a passion for learning, and my current venture is teaching
-              myself to play the trumpet. It's been quite the challenge, but the
-              slow progress brings me immense satisfaction. I'm taking it easy,
-              one day at a time!
+              I love learning new things, and my current adventure is teaching
+              myself how to play the trumpet. It's been quite the challenge, and
+              I'm taking it easy, one day at a time!
             </p>
 
             <img
@@ -99,11 +97,10 @@ function Hobbies() {
             />
             <p className="hobbyBlurb">
               {" "}
-              Coding is my happy place, where those "aha" moments light me up. I
+              Coding makes me happy, and those "aha" moments light me up. I
               enjoy sticking with it, cracking the problems and not giving up. I
-              really enjoy working with other developers. It is like teaming up
-              for a fun quest, where we all pitch in to reach our coding goals
-              together.
+              am also a fan of teaming up with other developers, so that we all
+              pitch in to reach our goals together.
             </p>
           </div>
         </div>
