@@ -14,63 +14,6 @@ function RentCraft() {
       <div id="rentCraftWrapper">
         <h1 className="title">RentCraft Walkthrough</h1>
         <div className="projectWrap">
-          {/*        <div id="carousel" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  src={RentCraftTenants}
-                  className="d-block w-100"
-                  alt="tenants"
-                />
-              </div>
-
-              <div className="carousel-item">
-                <img
-                  src={RentCraftUnits}
-                  className="d-block w-100"
-                  alt="units"
-                />
-              </div>
-
-              <div className="carousel-item">
-                <img
-                  src={RentCraftPaymentHistory}
-                  className="d-block w-100"
-                  alt="payment history"
-                />
-              </div>
-            </div>
-
-            <a
-              className="carousel-control-prev"
-              href="#carousel"
-              role="button"
-              data-slide="prev"
-              onClick={() => console.log("prev")}
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-
-              <span className="sr-only">Previous</span>
-            </a>
-
-            <a
-              className="carousel-control-next"
-              href="#carousel"
-              role="button"
-              data-slide="next"
-              onClick={() => console.log("next")}
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-
-              <span className="sr-only">Next</span>
-            </a>
-          </div> */}
           <div className="projectExplained">
             {" "}
             <br />

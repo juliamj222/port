@@ -35,7 +35,7 @@ function Projects() {
             <li>
               <strong>Harmony Hotel</strong> - Chat Web App
               <a
-                href="/harmony-hotel"
+                href="/port/#/projects/harmony-hotel"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
@@ -55,7 +55,7 @@ function Projects() {
             <li>
               <strong>Commented</strong> - Blog -{" "}
               <a
-                href="/commented-blog"
+                href="https://juliamj222.github.io/port/#/projects/commented-blog"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
