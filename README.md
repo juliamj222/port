@@ -21,3 +21,5 @@ Some lines about my hobbies and interests
 An outline of some of the transferable skills I developed throughout my career.
 
 Thank you for visiting!
+
+"homepage": "https://juliamj222.github.io/port/",
