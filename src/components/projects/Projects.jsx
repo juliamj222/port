@@ -15,7 +15,7 @@ function Projects() {
               {" "}
               <strong>RentCraft </strong>- Property Management Web App{" "}
               <a
-                href="/RentCraft"
+                href="/port/#/projects/RentCraft"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
