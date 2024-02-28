@@ -1,5 +1,6 @@
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -14,14 +15,9 @@ function Projects() {
             <li>
               {" "}
               <strong>RentCraft </strong>- Property Management Web App{" "}
-              <a
-                href="/projects/rentcraft"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="projectLink"
-              >
+              <Link to="/projects/rentcraft" className="projectLink">
                 - Walkthrough
-              </a>{" "}
+              </Link>{" "}
               <a
                 href="https://github.com/juliamj222/rentcraft-frontend"
                 target="_blank"
