@@ -28,12 +28,12 @@ function App() {
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/more-about-me" element={<MoreAboutMe />} />
         <Route path="/projects/rentcraft" element={<RentCraft />} />
-        <Route path="/jeopardy" element={<Jeopardy />} />
-        <Route path="/commented-blog" element={<CommentedBlog />} />
-        <Route path="/escape-bh" element={<EscapeBH />} />
-        <Route path="/harmony-hotel" element={<HarmonyHotel />} />
-        <Route path="/math-games" element={<MathGames />} />
-        <Route path="/pokedex" element={<Pokedex />} />
+        <Route path="/projects/jeopardy" element={<Jeopardy />} />
+        <Route path="/projects/commented-blog" element={<CommentedBlog />} />
+        <Route path="/projects/escape-bh" element={<EscapeBH />} />
+        <Route path="/projects/harmony-hotel" element={<HarmonyHotel />} />
+        <Route path="/projects/math-games" element={<MathGames />} />
+        <Route path="/projects/pokedex" element={<Pokedex />} />
       </Routes>
 
       <Footer />
