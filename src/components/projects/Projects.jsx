@@ -30,14 +30,14 @@ function Projects() {
             {/* Harmony Hotel section*/}
             <li>
               <strong>Harmony Hotel</strong> - Chat Web App
-              <a
-                href="/port/#/projects/harmony-hotel"
+              <Link
+                to="/projects/harmony-hotel"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
                 - Walkthrough
-              </a>{" "}
+              </Link>{" "}
               <a
                 href="https://github.com/juliamj222/harmony"
                 target="_blank"
@@ -50,14 +50,14 @@ function Projects() {
             {/* Commented Blog section */}
             <li>
               <strong>Commented</strong> - Blog -{" "}
-              <a
-                href="https://juliamj222.github.io/port/#/projects/commented-blog"
+              <Link
+                to="/projects/commented-blog"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
                 Walkthrough
-              </a>
+              </Link>
               <a
                 href="https://github.com/juliamj222/commented-blog"
                 target="_blank"
@@ -71,14 +71,14 @@ function Projects() {
             <li>
               <strong>Escape B.H. The Quest for Freedom </strong> - Text-Based
               Game{" "}
-              <a
-                href="/escape-bh"
+              <Link
+                to="/projects//escape-bh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
                 - Walkthrough
-              </a>{" "}
+              </Link>{" "}
               <a
                 href="https://github.com/juliamj222/Escape-B.H.-The-Quest-for-Freedom"
                 target="_blank"
@@ -91,15 +91,15 @@ function Projects() {
             {/* Pokédex section */}
             <li>
               <strong>Pokédex</strong> - Pokémon Information Web App{" "}
-              <a
-                href="/pokedex"
+              <Link
+                to="/projects/pokedex"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
                 {" "}
                 - Walkthrough
-              </a>{" "}
+              </Link>{" "}
               <a
                 href="https://github.com/juliamj222/pokedex"
                 target="_blank"
@@ -112,14 +112,14 @@ function Projects() {
             {/* Math Games Console Application */}
             <li>
               <strong>Math Games </strong>- Console App{" "}
-              <a
-                href="/math-games"
+              <Link
+                to="/projects/math-games"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
                 - Walkthrough
-              </a>{" "}
+              </Link>{" "}
               <a
                 href="https://github.com/juliamj222/math-games-guess-the-number"
                 target="_blank"
@@ -140,14 +140,14 @@ function Projects() {
               >
                 - Web-based Jeopardy game
               </a>{" "}
-              <a
-                href="/Jeopardy"
+              <Link
+                to="/projects/Jeopardy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
               >
                 - Walkthrough
-              </a>{" "}
+              </Link>{" "}
               <a
                 href="https://github.com/juliamj222/jeopardy"
                 target="_blank"
@@ -170,7 +170,7 @@ function Projects() {
               La Quesera - 2/12/2024 - Quiz game in Spanish, made for elementary
               students -{" "}
               <a
-                href="/"
+                href="https://github.com/juliamj222/la-quesera"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="projectLink"
