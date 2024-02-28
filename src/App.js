@@ -35,6 +35,7 @@ function App() {
         <Route path="/math-games" element={<MathGames />} />
         <Route path="/pokedex" element={<Pokedex />} />
       </Routes>
+
       <Footer />
     </div>
   );
